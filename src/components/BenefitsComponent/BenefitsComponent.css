@@ -1,0 +1,19 @@
+.benefit-cards{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+@media (max-width: 992px) {
+    .benefit-cards{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .benefit-cards{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,40 @@
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info a{
+    color: var(--grey15);
+}
+
+.contact-info img{
+    min-width: 40px;
+    border: 2px solid var(--grey15);
+    padding: 8px;
+    border-radius: 6px;
+    background-color: var(--Orange97);
+}
+
+
+@media(max-width: 1919px){
+    .contact-info a{
+        font-size: 16px;
+    }
+    
+    .contact-info img{
+        max-width: 32px;
+        max-height: 32px;
+        padding: 6px;
+        border-radius: 4px;
+    }
+}
+
+@media(max-width: 992px){
+    .contact-info img{
+        max-width: 32px;
+        max-height: 32px;
+        padding: 6px;
+        border-radius: 4px;
+    }
+}

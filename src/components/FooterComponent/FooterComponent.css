@@ -1,0 +1,234 @@
+footer{
+    background-color: var(--white-color);
+    margin-left: 2.6041%;
+    margin-right: 2.6041%;
+    margin-bottom: 2.6041%;
+    border-radius: 12px;
+}  
+
+.footerTopPart{
+    display: flex;
+    align-items: stretch;
+    gap: 5.0188%;
+    margin: 100px  6.0439%;
+}
+
+.footerTopPart ul,
+.footerBottomPart ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+/**start design first column in footer **/
+.footerTopPart .footer-links:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 32.1204%;
+}
+
+.footerTopPart .about-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerTopPart .about-footer p{
+    color: var(--grey30);
+}
+
+.footerTopPart .logo{
+    width: 43.9306%;
+}
+
+.footerTopPart .contact-info-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+/**end design first column in footer **/
+
+/**start design ul links for footer **/
+.footerTopPart .footer-links{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 3.0150%;
+    width: 100%;
+}
+
+.footerTopPart .footer-links h5{
+    color: var(--grey15);
+}
+
+.footerTopPart ul li a{
+    text-decoration: none;
+    color: var(--grey20);
+}
+
+.AA-col{
+    flex: 1 1 calc(21.90954773869347% - 30px);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.AA-col ul{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+/**end design ul links for footer **/
+
+/**start design social and policy part footer**/
+.footerBottomPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-right: 6.0439%;
+    margin-left: 6.04395%;
+    border-top: 1px solid var(--grey15);
+    border-bottom: 1px solid var(--black-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footerBottomPart ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    margin-left: 0;
+}
+
+.footerBottomPart a{
+    color: var(--grey60);
+    text-decoration: none;
+}
+/**end design social and policy part footer**/
+
+.copyright{
+    text-align: center;
+    color: var(--grey40);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 1919px) {
+    .footerTopPart{
+        margin: 80px  5.9701%;
+        margin-bottom: 40px;
+    }
+
+    .footerTopPart .about-footer{
+        gap: 16px;
+    }
+
+    .footerTopPart .logo{
+        width: 45.8015%;
+    }
+
+    .about-footer p{
+       font-size: 16px;
+    }
+
+    .contact-info-list{
+        gap: 20px;
+    }
+    
+    .AA-col{
+        gap: 20px;
+    }
+
+    .footerTopPart .footer-links h5,
+    .footerTopPart ul li a{
+        font-size: 16px;
+    }
+  
+    .footerTopPart .footer-links{
+        gap: 2.8248%;
+    }
+
+    .footerBottomPart{
+        margin-right: 5.9701%;
+        margin-left: 5.9701%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footerBottomPart a{
+        font-size: 16px;
+    }
+
+    .footerBottomPart ul{
+        gap: 10px;
+    }
+
+    .copyright{
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    footer{
+        margin-left: 4.10256%;
+        margin-right: 4.10256%;
+        margin-bottom: 5.1282%;
+    }
+
+    .footerTopPart{
+        margin: 60px  8.3798%;
+        margin-bottom: 30px;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footerTopPart .about-footer{
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerTopPart .logo{
+        width: 61.0738%;
+    }
+
+    .footerTopPart .footer-links:first-child{
+        gap: 40px;
+        max-width: 100%;
+    }
+    
+    .footerTopPart .footer-links{
+        gap: 50px;
+    }
+
+    .footerBottomPart{
+        margin-right: 8.37988%;
+        margin-left: 8.37988%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footerBottomPart a{
+        font-size: 14px;
+    }
+
+    .footerBottomPart ul{
+        gap: 6px;
+    }
+
+    .copyright{
+        font-size: 14px;
+        padding-top: 16px;
+        padding-bottom: 30px;
+        margin-right: 8.37988%;
+        margin-left: 8.37988%;
+    }
+}

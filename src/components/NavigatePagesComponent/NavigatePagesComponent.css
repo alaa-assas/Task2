@@ -1,0 +1,17 @@
+.navigate-cards{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+    .navigate-cards{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navigate-cards{
+        gap: 50px;
+    }
+}

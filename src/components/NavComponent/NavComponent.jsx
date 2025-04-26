@@ -27,7 +27,7 @@ const NavComponent = ({logo , items }) => {
           }
         </ul>
         <div className="hamburger" onClick={toggleMenu}>
-          <img src="/images/Navbar/hamburger.svg" alt="logo" />
+          <img src="/Task2/images/Navbar/hamburger.svg" alt="logo" />
         </div>
         <ul className={`nav-menu ${isOpen && "show"}`}>
           {

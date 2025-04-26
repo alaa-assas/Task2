@@ -7,12 +7,7 @@ import BenefitsComponent from "./components/BenefitsComponent/BenefitsComponent"
 import HeroComponent from "./components/HeroComponent/HeroComponent";
 import TopBannerComponent from "./components/TopBannerComponent/TopBannerComponent";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import {
-  FooterLinks,
-  ContactInfo,
-  socialLinks,
-  policyLinks,
-} from "./data/FooterData";
+import { FooterLinks, ContactInfo,socialLinks,policyLinks} from "./data/FooterData";
 import { NavLinks } from "./data/NavData";
 import { HeroTextData, statistics } from "./data/HeroData";
 
@@ -21,9 +16,9 @@ function App() {
     <>
       <ScrollToTop />
       <TopBannerComponent title={"Admission is Open, Grab your seat now"} />
-      <NavComponent logo={"/images/Navbar/Logo.svg"} items={NavLinks} />
+      <NavComponent logo={"/Task2/images/Navbar/Logo.svg"} items={NavLinks} />
       <HeroComponent
-        image={"/images/Hero/Image.png"}
+        image={"/Task2/images/Hero/Image.png"}
         data={HeroTextData}
         statistics={statistics}
       />
@@ -32,7 +27,7 @@ function App() {
       <FAQsComponent />
       <NavigatePagesComponent />
       <FooterComponent
-        logo={"/images/Footer/Logo.svg"}
+        logo={"/Task2/images/Footer/Logo.svg"}
         about={
           "We believe in the power of play to foster creativity, problem-solving skills, and imagination."
         }

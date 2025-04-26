@@ -51,7 +51,7 @@ const TestimonialsComponent = () => {
       />
       <div className="AA-slider">
         <button onClick={prevSlide} className="nav-button bg-size">
-          <img src="/images/Testimonials/prev.svg" alt="" />
+          <img src="/Task2/images/Testimonials/prev.svg" alt="" />
         </button>
         <div className="testimonial-cards">
           {TestimonialsData.slice(
@@ -66,14 +66,14 @@ const TestimonialsComponent = () => {
           ))}
         </div>
         <button onClick={nextSlide} className="nav-button bg-size">
-          <img src="/images/Testimonials/next.svg" alt="" />
+          <img src="/Task2/images/Testimonials/next.svg" alt="" />
         </button>
         <div className="btn-nav-row">
           <button onClick={prevSlide} className="nav-button">
-            <img src="/images/Testimonials/prev.svg" alt="" />
+            <img src="/Task2/images/Testimonials/prev.svg" alt="" />
           </button>
           <button onClick={nextSlide} className="nav-button">
-            <img src="/images/Testimonials/next.svg" alt="" />
+            <img src="/Task2/images/Testimonials/next.svg" alt="" />
           </button>
         </div>
       </div>

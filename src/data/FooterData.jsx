@@ -72,19 +72,19 @@ export const FooterLinks = [
 
 export  const ContactInfo = [
     {
-        icon: "/images/Footer/mail.svg",
+        icon: "/Task2/images/Footer/mail.svg",
         alt: "Email Address",
         data: "hello@littlelearners.com",
         link: "mailto:hello@littlelearners.com"
     },
     {
-        icon: "/images/Footer/phone.svg",
+        icon: "/Task2/images/Footer/phone.svg",
         alt: "Phone Number",
         data: "+91 91813 23 2309",
         link: "tel:+91 91813 23 2309",
     },
     {
-        icon: "/images/Footer/location.svg",
+        icon: "/Task2/images/Footer/location.svg",
         alt: "Phone Number",
         data: "Somewhere in the World",
         link: "#",
@@ -93,17 +93,17 @@ export  const ContactInfo = [
 
 export const socialLinks = [
     {
-        icon: "/images/Footer/facebook.svg",
+        icon: "/Task2/images/Footer/facebook.svg",
         alt: "facebook",
         link: "#"
     },
     {
-        icon: "/images/Footer/twitter.svg",
+        icon: "/Task2/images/Footer/twitter.svg",
         alt: "twitter",
         link: "#"
     },
     {
-        icon: "/images/Footer/linkedin.svg",
+        icon: "/Task2/images/Footer/linkedin.svg",
         alt: "linkedin",
         link: "#"
     }

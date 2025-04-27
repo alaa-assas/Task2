@@ -16,7 +16,7 @@ const FAQsComponent = () => {
       />
       <div className="faq-cards">
         {groupData(FAQData).map((group, groupKey) => (
-          <div key={groupKey} className="AA-FAQ-group">
+          <div key={groupKey} className="AA-FAQ-group" data-aos="fade-down" data-aos-duration="1500" data-aos-delay={groupKey * 400}>
             {group.map((item, itemKey) => (
               <FAQCardComponent
                 question={item.question}

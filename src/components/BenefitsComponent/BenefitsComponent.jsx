@@ -13,9 +13,9 @@ const BenefitsComponent = () => {
         "Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school"
       }
     />
-    <div className="benefit-cards">
+    <div className="benefit-cards" >
         {BenefitsData.map((field, index) => (
-          <BenefitCardComponent title={field.title} desc={field.desc} icon={field.icon} alt={field.alt}/>
+          <BenefitCardComponent title={field.title} desc={field.desc} icon={field.icon} alt={field.alt} delay={index}/>
         ))}
     </div>
   </section>

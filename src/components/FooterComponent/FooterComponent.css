@@ -1,10 +1,13 @@
 footer{
-    background-color: var(--white-color);
+    padding-bottom: 2.6041%;
+}  
+
+footer .AA-container{
     margin-left: 2.6041%;
     margin-right: 2.6041%;
-    margin-bottom: 2.6041%;
+    background-color: var(--white-color);
     border-radius: 12px;
-}  
+}
 
 .footerTopPart{
     display: flex;
@@ -177,9 +180,12 @@ footer{
 
 @media (max-width: 992px) {
     footer{
+        padding-bottom: 5.1282%;
+    }
+
+    footer .AA-container{
         margin-left: 4.10256%;
         margin-right: 4.10256%;
-        margin-bottom: 5.1282%;
     }
 
     .footerTopPart{

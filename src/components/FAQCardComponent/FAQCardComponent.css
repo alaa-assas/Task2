@@ -2,6 +2,12 @@
     padding: 40px;
     border-radius: 12px;
     flex-basis:  calc(50% - 25px);
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 6px 6px 0px 2px var(--orange70);
 }
 
 .AA-pb-24{

@@ -10,6 +10,11 @@
     text-align: center;
     flex-basis: calc(33.33% - 50px);
     background-color: var(--white-color);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-8px);
 }
 
 .testimonial-card .user-image{

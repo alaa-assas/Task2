@@ -4,7 +4,7 @@ import StatisticsComponent from '../StatisticsComponent/StatisticsComponent'
 
 const HeroComponent = ({image, data,statistics}) => {
   return (
-    <section className="hero px-168 mb-200">
+    <section className="hero px-168 mb-200" data-aos="fade-up">
       <div  className='left-side'>
         <img src={image} alt="image"/>
       </div>

@@ -11,6 +11,11 @@
     position: relative;
     margin-top: 35px;
     background-color: var(--white-color);
+    transition: all 0.3s ease;
+}
+
+.benfit-card:hover{
+    transform: translateY(-8px) !important;
 }
 
 .benfit-card .icon{

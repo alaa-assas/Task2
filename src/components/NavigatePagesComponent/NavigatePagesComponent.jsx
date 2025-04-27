@@ -15,7 +15,7 @@ const NavigatePagesComponent = () => {
       />
       <div className="navigate-cards">
         {NavigatePagesData.map((field, index) => (
-          <NavigatePageCardComponent title={field.pageName} desc={field.description} linkUrl={"#"} linkName={"Learn More"} />
+          <NavigatePageCardComponent key={index} title={field.pageName} desc={field.description} linkUrl={"#"} linkName={"Learn More"} delay={index} />
         ))}
       </div>
     </section>

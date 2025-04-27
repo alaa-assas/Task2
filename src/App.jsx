@@ -6,14 +6,18 @@ import TestimonialsComponent from "./components/TestimonialsComponent/Testimonia
 import BenefitsComponent from "./components/BenefitsComponent/BenefitsComponent";
 import HeroComponent from "./components/HeroComponent/HeroComponent";
 import TopBannerComponent from "./components/TopBannerComponent/TopBannerComponent";
+import HandleLoadingComponent from './components/HandleLoadingComponent/HandleLoadingComponent'
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { FooterLinks, ContactInfo,socialLinks,policyLinks} from "./data/FooterData";
 import { NavLinks } from "./data/NavData";
 import { HeroTextData, statistics } from "./data/HeroData";
 
+
 function App() {
+
   return (
     <>
+      <HandleLoadingComponent />
       <ScrollToTop />
       <TopBannerComponent title={"Admission is Open, Grab your seat now"} />
       <NavComponent logo={"/Task2/images/Navbar/Logo.svg"} items={NavLinks} />

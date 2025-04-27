@@ -27,6 +27,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 7.5376%;
+    z-index: 1;
 }
 
 .top {
@@ -82,4 +83,9 @@
     .bottom {
         height: 40%;
     }   
+
+    .leftImageDesign,
+    .rightImageDesign{
+        width: 25%;
+    }
 }

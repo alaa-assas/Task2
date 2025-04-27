@@ -9,6 +9,12 @@
     border-radius: 12px;
     text-align: center;
     background-color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.navigate-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 6px 6px 0px 2px var(--orange70);
 }
 
 .navigate-card .line{
@@ -33,6 +39,12 @@
     border-radius: 10px;
     text-decoration: none;
     color: var(--grey20);
+    transition: all 0.3s ease-in-out;
+}
+
+.navigate-card a:hover{
+    box-shadow: 6px 6px 0px 2px var(--orange70);
+    transform: translateY(-8px);
 }
 
 @media (max-width: 1919px) {
@@ -77,5 +89,10 @@
     }
     .navigate-card span{
         font-size: 16px;
+    }
+
+    .navigate-card:hover,
+    .navigate-card a:hover{
+        box-shadow: 4px 4px 0px 1px var(--orange70);
     }
 }

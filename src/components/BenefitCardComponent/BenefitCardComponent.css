@@ -15,7 +15,7 @@
 }
 
 .benfit-card:hover{
-    transform: translateY(-8px) !important;
+    box-shadow: 6px 6px 0px 2px var(--orange70);
 }
 
 .benfit-card .icon{
@@ -65,5 +65,9 @@
     
     .benfit-card h4{
         font-size: 22px;
+    }
+
+    .benfit-card:hover{
+        box-shadow: 4px 4px 0px 1px var(--orange70);
     }
 }

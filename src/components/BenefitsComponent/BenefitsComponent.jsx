@@ -7,10 +7,10 @@ const BenefitsComponent = () => {
   return (
     <section className="px-168 mb-200">
     <TitleComponent
-      flag={"Explore More"}
-      heading={"Navigate through our Pages"}
+      flag={"Children Deserve Bright Future"}
+      heading={"Our Benefits"}
       desc={
-        "Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school"
+        "With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future."
       }
     />
     <div className="benefit-cards" >

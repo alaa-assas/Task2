@@ -14,6 +14,7 @@
     background-color: var(--Orange90);
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .top-banner p {
@@ -36,6 +37,20 @@
 .bottom{
     align-self: self-end;
     height: 50%;
+}
+
+.rightImageDesign{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.leftImageDesign{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
 }
 
 

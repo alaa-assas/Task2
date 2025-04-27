@@ -6,17 +6,18 @@ Project Overview
 The Little Learners website is designed to provide parents and potential students with comprehensive information about the kindergarten school. 
 
 The site includes sections such as:
+
 1.Hero Section : Highlights key messages and statistics about the school.
 
 2.Benefits : Explains the unique advantages of the school, such as holistic learning, experienced educators, and nurturing environments.
 
-2.Testimonials : Displays feedback from satisfied parents and students.
+3.Testimonials : Displays feedback from satisfied parents and students.
 
-3.FAQs : Answers common questions about admissions, policies, and activities.
+4.FAQs : Answers common questions about admissions, policies, and activities.
 
-4.Navigation : Provides links to various sections like About Us, Academics, Student Life, Admissions, and Contact.
+5.Navigation : Provides links to various sections like About Us, Academics, Student Life, Admissions, and Contact.
 
-5.Footer : Includes contact information, social media links, and legal notices.
+6.Footer : Includes contact information, social media links, and legal notices.
 
 Technologies Used:
 - React : For building dynamic and reusable UI components.

@@ -28,6 +28,7 @@
 
 @media(max-width: 992px){
     .statistics-card{
+        box-shadow: 4px 4px 0px 1px var(--Orange80);
         flex-wrap: wrap;
         justify-content: center;
     }

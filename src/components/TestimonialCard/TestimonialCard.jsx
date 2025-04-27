@@ -7,7 +7,7 @@ const TestimonialCard = ({userImage,userName,opinion}) => {
             <img src={userImage} alt="" />
         </div>
         <h5 className='fs-24'>{userName}</h5>
-        <img src="/images/Testimonials/Shape.svg" alt="" className='stars'/>
+        <img src="/Task2/images/Testimonials/Shape.svg" alt="" className='stars'/>
         <p className='fs-20'>{opinion}</p>
     </div>
   )

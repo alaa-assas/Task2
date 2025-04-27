@@ -206,4 +206,7 @@
   .mt-18{
     margin-top: 10.2564103%;
   }  
+  .box-shadow-black{
+    box-shadow: 4px 4px 0px 1px var(--black05);
+  }
 }

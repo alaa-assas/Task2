@@ -49,7 +49,7 @@ nav .logo img {
 }
 
 .nav-menu li {
-    padding: 20px;
+    padding: 12px;
     width: 50%;
     text-align: center;
     border: 2px solid var(--grey15);
